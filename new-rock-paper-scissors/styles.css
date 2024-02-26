@@ -1,0 +1,59 @@
+:root {
+  --background-color: #fcba03;
+}
+
+body {
+  font-family: 'Poppins';
+  background-color: var(--background-color);
+}
+
+.wintext {
+  color:green;
+}
+
+.losetext {
+  color: red;
+}
+
+.btn-choice{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-choice button{
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn-choice button:hover{
+  scale: 0.95;
+  filter: grayscale(0.6);
+}
+
+.btn-choice button:nth-child(1){
+  background-color: #000794;
+  color: white;
+  border: none;
+}
+
+.btn-choice button:nth-child(2){
+  background-color: #003D06;
+  color: white;
+  border: none;
+}
+
+.btn-choice button:nth-child(3){
+  background-color: #700000;
+  color: white;
+  border: none;
+}
+
+.text-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
